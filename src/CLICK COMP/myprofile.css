@@ -1,0 +1,128 @@
+.myprofile-wrapper{
+    width: 75%;
+    height: calc(100vh - 4.5rem);
+    display: flex;
+    justify-content: center;
+}
+.myprofile-frame{
+    width: 100%;
+    padding: 0 4rem;
+    overflow-y: scroll;
+  
+}
+.myprofile-top{
+    display: flex;
+    width: 100%;
+    height: 50%;
+}
+.myprofile-top-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 40%;
+}
+.myprofile-dp{
+    width: 12rem;
+    height: 12rem;
+    border-radius: 50%;
+    margin-bottom: 2rem;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.373);
+}
+.myprofile-top-right{
+    padding: 2rem;
+    height: 100%;
+    width: 50%;
+}
+.top-right-div1{
+    display: flex;
+    gap: 1rem;
+}
+.top-right-div1 h4{
+    font-size: 1.4rem;
+    font-family: 'Poppins';
+}
+.top-right-div1 button{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 2rem;
+   width: 12em;
+   border: none;
+   font-family: 'Poppins';
+   border-radius: .4rem;
+   background-color: rgba(128, 128, 128, 0.162);
+}
+.top-right-div2{
+    display: flex;
+    gap: 2rem;
+    margin-top: 1.4rem;
+}
+.top-right-div2 span{
+    font-family: 'Roboto';
+}
+.top-right-div3{
+    font-size: .8rem;
+    margin-top: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.top-right-div4 ul li{
+    list-style: none;
+    font-weight: 900;
+    font-size: 1.2rem;
+}
+.top-right-div5{
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: 600;
+    margin-top: .4rem;
+}
+.top-right-div6{
+    margin-top: 1rem;
+    font-family: 'Roboto';
+    font-size: .8rem;
+}
+.top-right-div6 span{
+    font-size: 1rem;
+    font-family: 'Roboto';
+}
+.myprofile-centre{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 20%;
+}
+.myprofile-hr{
+   margin: 3rem 0;
+}
+.story-highlights-pics{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: .5rem;
+}
+.story-highlights-pics div{
+    font-size: 1rem;
+    font-family: 'Poppins';
+    font-weight: 600;
+}
+.storyHighlight-img{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.341);
+    box-shadow: 1px 1px 14px rgba(0, 0, 0, 0.433);
+}
+.myprofile-bottom{
+    display: grid;
+    grid-template-columns: repeat(3,33.2%);
+    grid-template-rows: repeat(2,25rem);
+    column-gap: .2rem;
+    row-gap: .2rem;
+    
+}
+.myprofile-post-img{
+    width: 100%;
+    height: 100%;
+}

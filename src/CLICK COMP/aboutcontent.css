@@ -1,0 +1,22 @@
+.about-frame{
+  width: 100%;
+  padding: 0 3.5rem;
+  overflow-y: scroll;
+
+}
+h3{
+  text-align: center;
+  margin: 2rem 0;
+  font-size: 1.6rem;
+  font-family: 'Poppins';
+  font-weight: 600;
+}
+.about-details{
+   display: flex;
+   flex-direction: column;
+   gap: 1.4rem;
+}
+.about-details li{
+    font-size: 1.1rem;
+    letter-spacing: .05rem;
+}

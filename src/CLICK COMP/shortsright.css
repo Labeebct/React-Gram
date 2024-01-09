@@ -1,0 +1,15 @@
+.shorts-right-wrapper{
+    display: flex;
+    justify-content: center;
+    height: calc(100vh - 4.5rem);
+    width: 75%;
+}
+.shorts-right-frame{
+    height: 100%;
+    width: 45%;
+    overflow-y: scroll;
+}
+
+.shorts-right-frame::-webkit-scrollbar{
+    width: 0;
+}

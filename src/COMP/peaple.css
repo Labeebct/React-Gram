@@ -1,0 +1,124 @@
+.people{
+    width: 100%;
+    padding: .68rem 0;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.282);
+    display: flex;
+    align-items: center;
+}
+.people-pic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1.6;
+}
+.peaple-know-pic{
+    height: 3.5rem;
+    width: 3.5rem;
+    border-radius: 50%;
+}
+.about-people{
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: .4rem;
+    margin-bottom: .5rem;
+    
+}
+.people-id{
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-size: 1.2vw;
+}
+.people-source{
+    font-family: 'Poppins';
+    font-size: .8rem;
+}
+.follow-cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 3;
+}
+.follow-btn{
+    padding: .4rem 1.2rem;
+    border-radius: .2rem;
+    font-family: 'Poppins';
+    font-weight: 550;
+    border: none;
+    color: white;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.652);
+    background-color: rgb(35, 162, 241);
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.181);
+    transition: all .4s;
+}
+.follow-btn:active{
+    transform: scale(.9);
+}
+.people:hover{
+    background-color: rgba(128, 128, 128, 0.192);
+}
+
+@media screen and (max-width : 1242px){
+    .peaple-know-pic{
+        height: 3.2rem;
+        width: 3.2rem;
+        border-radius: 50%;
+    }
+    .follow-btn{
+        padding: .3rem 1rem;
+    }
+    .about-people{
+        flex: 4;
+       }
+       .people-source{
+        font-size: .7rem;
+    }
+   
+}
+
+@media screen and (max-width : 1050px){
+    .peaple-know-pic{
+        height: 2.8rem;
+        width: 2.8rem;
+        border-radius: 50%;
+    }
+    .follow-btn{
+        display: none;
+    }
+    .about-people{
+        flex: 4;
+       }
+    .follow-cont{
+        flex: 0;
+    }
+    .people-source{
+        font-size: .6rem;
+    }
+    .people-id{
+        font-size: .9rem;
+    }
+
+}
+@media screen and (max-width : 700px){
+    .peaple-know-pic{
+        margin-left: .3rem;
+        height: 2.3rem;
+        width: 2.3rem;
+        border-radius: 50%;
+    }
+    .about-people{
+        margin-top: .5rem;
+        padding-left: .4rem;
+    }
+    .people-id{
+        font-size: .9rem;
+    }
+    .about-people{
+        flex: 8;
+    }
+    .follow-cont{
+        flex: 0;
+    }
+  
+}

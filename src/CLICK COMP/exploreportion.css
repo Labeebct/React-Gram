@@ -1,0 +1,14 @@
+.exploreportion-wrapper{
+    height: calc(100vh - 4.5rem);
+    width: 75%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding: .5rem;
+}
+.exploreportion-wrapper{
+    display: grid;
+    grid-template-columns: repeat(6,11.5rem);
+    grid-template-rows: repeat(7,11.5rem);
+    column-gap: .2rem;
+    row-gap: .2rem;
+}
